@@ -1,4 +1,5 @@
 #SPDX-License-Identifier: ISC
+EXTRA_CFLAGS += -Werror -DCONFIG_MT76_LEDS
 
 obj-$(CONFIG_MT7915E) += mt7915e.o
 
